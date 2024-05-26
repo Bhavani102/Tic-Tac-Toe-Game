@@ -1,0 +1,172 @@
+/* style.css */
+
+/* General styles */
+* {
+    margin: 0px ;
+    padding: 0;
+  }
+  
+  body {
+    text-align: center;
+    margin-top: 50px;
+    background: url('img.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  h1{
+    color: #fff;
+    font-size: 50px;
+  }
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #f3f3b4;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #c58950;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #c58950;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #fdfdfb;
+    font-size: 5vmin;
+    margin-bottom:10px;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    font-family: 'Poetsen One', sans-serif;
+  }
+  
+  .hide {
+    display: none;
+  }
+/*
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: url('img.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    text-align: center;
+    color: #fff; /* Optional: to ensure text is visible on the background 
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+  }
+button#new-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: rgb(5, 150, 56);
+    color: white;
+    border: none;
+    opacity: 0.8;
+    
+}
+button#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    opacity: 0.8;
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+    justify-content: center;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  */
